@@ -10,3 +10,4 @@ def dfs_recursive(graph, node, visited=None):
     for neighbor in graph[node]:
         if neighbor not in visited:
             dfs_recursive(graph, neighbor, visited)
+
